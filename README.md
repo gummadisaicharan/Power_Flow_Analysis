@@ -1,15 +1,12 @@
-Power-Flow-Analysis-Tool - TEAM_9
+#Power-Flow-Analysis-Tool 
 A Python-based command-line tool for performing power system load flow analysis using the Gauss-Seidel and Newton-Raphson methods. It calculates bus voltages, power losses, and current flows for small power systems. Includes input/output functionality and test cases for validation.
 
 Load Flow Analysis Tool
-Overview
+#Overview
 The Load Flow Analysis Tool is a Python-based application designed to perform load flow analysis for small power systems using the Newton-Raphson method. This tool facilitates the calculation of critical parameters such as bus voltages, power losses, and current flows, making it a valuable asset for power system engineers and researchers.
 
-TEAM_9 MEMBERS
-SWATI IPPALLI: Responsible for implementing the mathematical models and algorithms for the Newton-Raphson method.
-SATVIKA LS: Develops input/output functions for handling bus and line data.
-OBULAKSHMI P O: Compiles comprehensive usage instructions and validates the tool's results with sample inputs.
-Features
+
+#Features
 Bus Voltage Calculation: Accurately determines voltage levels at various buses within the power system.
 Power Loss Calculation: Evaluates power losses in transmission lines due to resistance.
 Current Flow Evaluation: Computes current flowing through each transmission line in the network.
@@ -17,7 +14,7 @@ User-Friendly Interface: Operates via the command line, with clear input and out
 Program Flow
 The program follows a structured flow to perform load flow analysis effectively:
 
-Initialization:
+#Initialization:
 
 Load necessary libraries and modules.
 Initialize data structures to store bus and line information.
